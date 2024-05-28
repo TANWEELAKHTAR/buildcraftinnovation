@@ -78,16 +78,19 @@ nav a {
   font-size: 1.2vw;
   color: #ffffff;
 }
+
 .nav-btns {
   display: flex;
   align-items: center;
 }
+
 .ham {
   width: 30px;
   height: 3px;
   margin-bottom: 25px;
   display: none;
 }
+
 .ham-link {
   width: 40%;
   height: 25vh;
@@ -97,14 +100,17 @@ nav a {
   background-color: #ff752073;
   display: none;
 }
+
 .ham-link a {
   font-size: 3vw;
   font-weight: 900;
 }
+
 .ham-link a:hover {
   transition: all 0.1s ease-in-out;
   text-decoration: underline 2px #ff7420;
 }
+
 .cross {
   position: absolute;
   top: 0;
@@ -113,6 +119,7 @@ nav a {
   width: 15px;
   z-index: 999;
 }
+
 .nav-contact,
 .hero-btn {
   border: none;
@@ -174,15 +181,18 @@ nav a {
   color: #ffffff;
   background-color: #ff7420;
 }
+
 .float-p {
   display: flex;
   align-items: center;
   gap: 5px;
 }
+
 .float-p img {
   width: 15px;
   height: 15px;
 }
+
 .float-p span {
   font-size: 1vw;
 }
@@ -204,11 +214,13 @@ nav a {
   width: 50%;
   position: relative;
 }
+
 .exps {
   display: flex;
   margin: 2vw 0;
   align-items: center;
 }
+
 .exp {
   display: flex;
   align-items: center;
@@ -216,10 +228,12 @@ nav a {
   gap: 1vw;
   margin: 1vw 4vw;
 }
-.exp > p {
+
+.exp>p {
   font-size: 1.5vw;
 }
-.exp > h1 {
+
+.exp>h1 {
   font-size: 4vw;
 }
 
@@ -236,14 +250,17 @@ nav a {
   align-items: flex-start;
   flex-direction: column;
 }
+
 .exp-right h1 {
   font-size: 4vw;
   font-weight: 600;
 }
+
 .exp-right p {
   font-size: 1vw;
   font-weight: 400;
 }
+
 .exp-right-mar {
   margin: 1vw 0;
 }
@@ -346,6 +363,7 @@ nav a {
   height: 50vh;
   object-fit: cover;
 }
+
 .swiper-info {
   width: 100%;
   height: 100%;
@@ -358,14 +376,17 @@ nav a {
   z-index: 99;
   transition: all 0.2s ease-out;
 }
+
 .swiper-info span {
   color: #ffffff;
   font-size: 2vw;
   font-weight: 900;
 }
+
 .swiper-slide:hover .swiper-info {
   opacity: 1;
 }
+
 .explore {
   width: 100%;
   padding: 2vw;
@@ -399,6 +420,7 @@ nav a {
   font-size: 3vw;
   text-transform: uppercase;
 }
+
 .con-info p {
   font-size: 1vw;
   font-weight: 500;
@@ -457,9 +479,11 @@ nav a {
   justify-content: center;
   flex-direction: column;
 }
+
 .con-req-left h1 {
   font-size: 2.5vw;
 }
+
 .con-req-left p {
   font-size: 1.2vw;
 }
@@ -555,6 +579,7 @@ footer {
 .footer-box-1 {
   width: 30%;
 }
+
 .footer-box-1 h1 {
   font-size: 3vw;
   font-weight: 900;
@@ -572,9 +597,9 @@ footer {
   gap: 1vw;
 }
 
-.social > .svg {
-  height: 15px;
-  width: 15px;
+.social>.svg {
+  height: 20px;
+  width: 20px;
   cursor: pointer;
 }
 
@@ -605,6 +630,7 @@ footer {
   border-radius: 50%;
   object-fit: cover;
 }
+
 @media (max-width: 768px) {
   /* heroPage */
 
@@ -635,6 +661,7 @@ footer {
     align-self: center;
     font-size: 1.5vh;
   }
+
   .hero-btn {
     font-size: 1vh;
   }
@@ -680,18 +707,22 @@ footer {
   .exp-left {
     width: 100%;
   }
+
   .exps {
     padding: 2vw 0;
     margin: 0;
     padding-top: 2vh;
   }
+
   .exp {
     width: 100%;
   }
-  .exp > p {
+
+  .exp>p {
     font-size: 2vh;
   }
-  .exp > h1 {
+
+  .exp>h1 {
     font-size: 4vh;
   }
 
@@ -701,22 +732,27 @@ footer {
     align-items: center;
     padding: 2vh;
   }
+
   .exp-right h1 {
     font-size: 4vh;
   }
+
   .exp-right p {
     font-size: 2vh;
 
     text-align: center;
   }
+
   /* pageService */
 
   .steps {
     gap: 4vh;
   }
+
   .steps span {
     font-size: 2vh;
   }
+
   .steps p {
     font-size: 2.5vh;
   }
@@ -724,6 +760,7 @@ footer {
   .line {
     display: none;
   }
+
   .project {
     width: 100%;
     display: block;
@@ -753,15 +790,18 @@ footer {
   .explore {
     font-size: 1.5vh;
   }
+
   .explore img {
     height: 15px;
     width: 15px;
   }
+
   /* pageContact */
 
   .con-info h2 {
     font-size: 2vh;
   }
+
   .con-info p {
     font-size: 1vh;
   }
@@ -777,7 +817,8 @@ footer {
   .heading-txt h3 {
     font-size: 1.5vh;
   }
-  .heading-txt h3 > img {
+
+  .heading-txt h3>img {
     height: 8px;
     width: 8px;
   }
@@ -792,9 +833,11 @@ footer {
   .con-req-left {
     width: 100%;
   }
+
   .con-req-left h1 {
     font-size: 3vh;
   }
+
   .con-req-left p {
     width: 90%;
     font-size: 1.5vh;
@@ -825,6 +868,7 @@ footer {
     font-size: 1.3vh;
   }
 }
+
 /* pageFooter */
 
 .footer-box-1 h1 {
@@ -835,6 +879,7 @@ footer {
   font-size: 1.5vw;
   margin: 0;
 }
+
 .social {
   padding-bottom: 2vw;
 }
@@ -855,6 +900,7 @@ footer {
   margin: 0.2vw 0;
   font-size: 1.5vh;
 }
+
 /* .social .svg {
   width: 10px;
   height: 10px;
@@ -869,6 +915,7 @@ footer {
     margin-right: 10px;
     margin-top: 18px;
   }
+
   .ham-link {
     display: flex;
     justify-content: space-evenly;
@@ -876,44 +923,54 @@ footer {
     flex-direction: column;
     opacity: 0;
   }
+
   .float-p span {
     font-size: 1vh;
     font-weight: bolder;
   }
-  .steps{
+
+  .steps {
     display: none;
   }
+
   .nav-contact,
-.hero-btn {
-  border: none;
-  font-size: 2.5vw;
-  font-weight: 500;
-  padding: 0.5vw 0.8vw;
-  margin-right: 1vw;
-  border-radius: 5px;
-  color: #ffffff;
-  background-color: #ff7420;
-  cursor: pointer;
-}
-.project h1{
-  font-size: 3vh;
-  font-weight: bolder;
-}
-  .nav-contact{
+  .hero-btn {
+    border: none;
+    font-size: 2.5vw;
+    font-weight: 500;
+    padding: 0.5vw 0.8vw;
+    margin-right: 1vw;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ff7420;
+    cursor: pointer;
+  }
+
+  .project h1 {
+    font-size: 3vh;
+    font-weight: bolder;
+  }
+
+  .nav-contact {
     display: none;
   }
+
   .con-req-right {
     width: 100%;
   }
+
   .pro-nav h4 {
     font-size: 2vw;
   }
+
   .link {
     display: none;
   }
+
   .footer-box-1 h1 {
-    font-size: 2.5vh;
+    font-size: 3vh;
   }
+
   .social .svg {
     width: 10px;
     height: 10px;
@@ -924,37 +981,48 @@ footer {
     font-size: 2vw;
     margin: 0;
   }
+
   .pageFooter {
     display: flex;
     justify-content: space-evenly;
   }
+
   .footer-box-3 img {
     display: none;
   }
+
+  .footer-link>a {
+    font-size: 8px !important;
+  }
 }
+
 @media (max-width: 330px) {
   .swiper-slide {
     margin-top: 4vw;
   }
+
   .swiper-slide img {
     height: 20vh;
   }
+
   .footer-box-1 h1 {
-    font-size: 2vh;
+    width: 100%;
+    font-size: 20px;
   }
 
   .footer-box-1 p {
-    font-size: 0.9vh;
+    font-size: 5px !important;
     width: 100%;
     margin: 0;
   }
+
   .social .svg {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     margin-left: 3px;
   }
-  .footer-box-2 a {
-    font-size: 1vh !important;
+
+  .footer-link>a {
+    font-size: 8px !important;
   }
-  
 }

@@ -537,6 +537,10 @@ select,
   flex-direction: column;
 }
 
+.emp7{
+  text-transform: lowercase !important;
+
+}
 .con-req-right h1 {
   font-size: 2vw;
   text-transform: uppercase;
